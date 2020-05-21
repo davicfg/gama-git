@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-function App() {
+function App(props) {
   return (
-    <h1>Hello Gama Academy sh </h1>
+    <>
+    <h1>{props.title}</h1>
+    <input name="usuario" id="usuario" className="usuarioInput" placeholder="Usuário" />
+    <button type='button'>Pesquisar</button>
+    </>
   );
 }
 
