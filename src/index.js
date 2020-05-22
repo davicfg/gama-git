@@ -1,12 +1,13 @@
+// import './index.css';
+// import * as serviceWorker from './serviceWorker';
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
 import App from './App';
-// import * as serviceWorker from './serviceWorker';
+import Repositories from './Repositories'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App title="Gama Git"/>
+    <App title="Gama Git" />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,11 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
+import Routes from './routes'
 
-function App(props) {
+function App() {
   return (
     <>
-    <h1>{props.title}</h1>
-    <input name="usuario" id="usuario" className="usuarioInput" placeholder="Usuário" />
-    <button type='button'>Pesquisar</button>
+    <Routes />
     </>
   );
 }
